@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
+            document.title = "Projects | Portfolio Akhilesh Shakampally";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
@@ -105,7 +105,7 @@ getProjects().then(data => {
 })
 // fetch projects end
 
-// Start of Tawk.to Live Chat
+// Start of Tawk.to Live Chat 
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
